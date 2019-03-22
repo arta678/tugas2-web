@@ -26,7 +26,10 @@ body {
   text-align: center;
   background: black;
   color: white;
+}
 
+h1,h3{
+  margin-left: 50px;
 }
 
 #tempat-foto {
@@ -55,11 +58,6 @@ body {
   width: 100px;
   height: 30px;
   border-radius: 8px;
-  /* text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-
 }
 
 #tombol_tutup {
@@ -68,22 +66,14 @@ body {
   width: 100px;
   height: 30px;
   border-radius: 8px;
-
-  /* text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-
 }
 
 #data-diri{
   width: 600px;
   height: 300px;
   color: rgb(196, 196, 196);
-  /* background-color: red; */
   margin-left: 30px;
   margin-top: 40px;
-  /* margin: 50px 10px 50px 50px ; */
   font-size: 25px;
 }
 
