@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(196, 196, 196);
+  margin: 20px;
+  padding: 0;
+}
+
+#kepala {
+  background-color: rgb(47, 48, 47);
+  margin: 0 auto;
+  width: 600px;
+  height: 160px;
+  border-radius: 15px;
+  transition: 0.75s;
+}
+
+.bungkus {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.biodata {
+  background-color: rgb(26, 37, 27);
+  width: 450px;
+  height: 120px;
+  border-top-left-radius: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+
+}
+
+#tempat-foto {
+  background-color: yellow;
+  width: 150px;
+  height: 120px;
+  background: rgb(0, 0, 0);
+  color: white;
+  border-top-right-radius: 20px;
+}
+
+.foto {
+  width: 75px;
+  height: 100px;
+  padding: auto;
+  margin: 10px;
+  margin-left: 45px;
+  border: 2px solid ;
+  border-color: white;
+}
+
+#tombol_buka {
+  margin-top: 5px;
+  margin-left: 50px;
+  background-color: rgb(0, 210, 150);
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  /* text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+#tombol_tutup {
+  margin-top: 5px;
+  background-color: rgb(0, 210, 150);
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+
+  /* text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+#data-diri{
+  width: 600px;
+  height: 300px;
+  color: rgb(196, 196, 196);
+  /* background-color: red; */
+  margin-left: 30px;
+  margin-top: 40px;
+  /* margin: 50px 10px 50px 50px ; */
+  font-size: 25px;
+}
+
+table{
+  width: 600px;
+  font-size: 20px;
+
+
+}

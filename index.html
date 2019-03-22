@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>java script</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.js"></script>
+</head>
+
+<body>
+  <div id="kepala">
+    <div class="bungkus">
+      <div class="biodata">
+        <h3>BIODATA</h3>
+        <h1>ARTA WIGUNA</h1>
+      </div>
+      <div id="tempat-foto">
+        <img class="foto" src="gambar/16101468_arta_wiguna.jpeg">
+      </div>
+
+
+      <!-- <div id="a" onclick="buka()">
+        <p>TAMPIL</p>
+      </div> -->
+      <button  id="tombol_buka" onclick="buka()">SHOW</button>
+      <!-- <div id="b" click="">
+        <p>TUTUP</p>
+      </div> -->
+      <button  id="tombol_tutup" >TUTUP</button>
+    </div>
+
+    <div id="data-diri">
+      <table border="0">
+        <tr>
+          <td width="100px">Nama </td>
+          <td>:</td>
+          <td id="nama"></td>
+        </tr>
+        <tr>
+          <td>NIM</td>
+          <td>:</td>
+          <td id="nim"></td>
+        </tr>
+        <tr>
+          <td>Alamat </td>
+          <td>:</td>
+          <td id="alamat"></td>
+        </tr>
+        <tr>
+          <td>Email </td>
+          <td>:</td>
+          <td id="email"> </td>
+        </tr>
+        <tr>
+          <td>Angkatan </td>
+          <td>:</td>
+          <td id="angkatan"></td>
+        </tr>
+        <tr>
+          <td>Hoby </td>
+          <td>:</td>
+          <td id="hoby"></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <script>
+    //javascript
+    function buka() {
+      tampilkanData(
+        "i gede arta ",
+        16101468,
+        "Selat karangasem",
+        "artawgn678@gmail.com",
+        2016,
+        "Tidur");
+      document.getElementById("kepala").style.height = "400px";
+    }
+
+    function tampilkanData(p_nama, p_nim, p_alamat, p_email, p_angkatan,p_hoby) {
+      document.getElementById("nama").innerHTML = p_nama.toUpperCase();
+      document.getElementById("nim").innerHTML = p_nim;
+      document.getElementById("alamat").innerHTML = p_alamat.toUpperCase();
+      document.getElementById("email").innerHTML = p_email;
+      document.getElementById("angkatan").innerHTML = p_angkatan;
+      document.getElementById("hoby").innerHTML = p_hoby.toUpperCase();
+    }
+
+    //jQuery
+    $(document).ready(function() {
+      $("#tombol_tutup").click(function() {
+        $("#kepala").css("height", "160px");
+      });
+
+    });
+  </script>
+</body>
+
+</html>
