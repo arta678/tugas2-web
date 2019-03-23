@@ -2,7 +2,7 @@ body {
   background-color: rgb(196, 196, 196);
   margin: 20px;
   padding: 0;
- 
+
 }
 
 #kepala {
@@ -34,7 +34,6 @@ h1,h3{
 }
 
 #tempat-foto {
-  background-color: yellow;
   width: 150px;
   height: 120px;
   background: rgb(0, 0, 0);

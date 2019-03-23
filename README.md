@@ -1,1 +1,2 @@
-# web1-tugas2
+# TUGAS2 - WEB1 
+Dosen Pak Ketut Widhi

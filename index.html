@@ -70,7 +70,6 @@
         2016,
         "Tidur");
       document.getElementById("kepala").style.height = "400px";
-
     }
 
     function tampilkanData(p_nama, p_nim, p_alamat, p_email, p_angkatan, p_hoby) {
@@ -81,15 +80,11 @@
       document.getElementById("angkatan").innerHTML = p_angkatan;
       document.getElementById("hoby").innerHTML = p_hoby.toUpperCase();
     }
-
     //jQuery
     $(document).ready(function() {
       $("#tombol_tutup").click(function() {
         $("#kepala").css("height", "160px");
-
-
       });
-
     });
   </script>
 </body>
