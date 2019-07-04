@@ -1,2 +1,6 @@
 # TUGAS2 - WEB1 
-Dosen Pak Ketut Widhi
+untuk melihat review klik link dibawah 
+
+
+[REVIEW](https://arta678.github.io/web1-tugas2/)
+
